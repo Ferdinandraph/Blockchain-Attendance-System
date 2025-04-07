@@ -25,7 +25,7 @@ const StudentList = ({ students, onDeleteStudent, setSelectedStudentHistory, set
       setAttendanceStatus((prev) => ({ ...prev, [studentId]: true }));
       alert("Student marked present!");
     } catch (error) {
-      alert("Failed to mark attendance. Are you an admin?");
+      alert("Failed to mark attendance.");
     }
   };
 
